@@ -60,9 +60,9 @@ public class RestauranteFragment extends Fragment {
             //Lista personalizada de elementos Restaurantes
 
             List<Restaurante> restaurantes = new ArrayList<Restaurante>();
-            restaurantes.add(new Restaurante("Pizzeria Carlos", "https://pizzeriamisko.hr/wp-content/uploads/2019/09/pizzeria_misko_logo_mob_light.png", 4.0f,"Madrid, España" ));
-            restaurantes.add(new Restaurante("Hamburgueseria rapida", "https://pizzeriamisko.hr/wp-content/uploads/2019/09/pizzeria_misko_logo_mob_light.png", 3.1f,"Mexico DF, Mexico" ));
-            restaurantes.add(new Restaurante("Parrilla casera", "https://pizzeriamisko.hr/wp-content/uploads/2019/09/pizzeria_misko_logo_mob_light.png", 3.7f,"Buenos Aires, Argentina" ));
+            restaurantes.add(new Restaurante("Pizzeria Carlos", "https://www.eleconomista.com.ar/wp-content/uploads/2019/09/Pizza-from-Pizzeria-Guerrin-in-Buenos-Aires-Argentina-1200x900-768x576.jpg", 4.0f,"Madrid, España" ));
+            restaurantes.add(new Restaurante("Hamburgueseria rapida", "https://puntobiz.com.ar/data/img_cont/img_imagenes/img_gr/120475_83393.jpg", 3.1f,"Mexico DF, Mexico" ));
+            restaurantes.add(new Restaurante("Parrilla casera", "https://lalagunaahora.com/wp-content/uploads/2018/02/parrilla.jpg", 3.7f,"Buenos Aires, Argentina" ));
             adapterRestaurantes = new MyRestauranteRecyclerViewAdapter(restaurantes, mListener);
             recyclerView.setAdapter(adapterRestaurantes);
         }
